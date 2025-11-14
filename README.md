@@ -12,39 +12,49 @@
 ``` MD
 ::download{title="雾创岛" source="下载来源" url="https://github.com/onexru/Fuwari-for-TR0-Blog"}
 ```
+
 2. 文章卡片
 
 ``` MD
 ::post{id="cs"}
 ```
+
 3. 侧边栏导航
 
 移动端没事下，工具栏菜单会在侧边栏中显示。
+
 4. 分类
 
 原Fuwari没有分类功能，所以新增了分类功能。
+
 5. 搜索
 
 搜索模块独立出来了。
+
 6. 友情链接
 
 在src/config.ts friends 中添加友情链接
+
 7. 网站关键字与简介
 
 在src/config.ts siteConfig 中，keywords添加网站关键字，description设置简介
+
 8. 布局修改
 
 包含工具栏由左边移动至右边，顶部导航栏100%铺满等...
+
 9. 其它一些小优化
 
 ## 建议
 
 建议使用 pnpm 安装依赖
+
 文章封面图建议分辨率：480*300
 
 ## 其它
 
 安装：pnpm install
+
 运行：pnpm run start
 
 懒得一个个介绍了，都玩静态博客了，自己折腾一下源代码根据自己的需求修改就行了
